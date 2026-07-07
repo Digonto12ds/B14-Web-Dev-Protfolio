@@ -3,6 +3,10 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
+/* img{
+    max-width: 584px;
+    max-height: 676px;
+} */
 /* header{
     background-color: lightsalmon;
 
@@ -16,13 +20,33 @@
     font-size: 22px;
     color: white;
     border: none;
+    cursor: pointer;
 
+ }
+ .common-btn:hover {
+    background-color: #f89046;
+ }
+ .outline-btn{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+
+ }
+ .outline-btn:hover{
+    background-color:#f2e9e2;;
+ }
+ .container{
+    max-width: 1200px;
+    margin: auto;
  }
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
     padding: 12px 0px;
     
 }
@@ -42,4 +66,35 @@ ul{
     align-items: center;
 } ul li a{
     text-decoration: none;
+}
+
+/* Hero section style  */
+.hero-root{
+    background-color: #fff8f3;
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.My-photo{
+    max-width: 584px;
+    max-height: 684px;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.p1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.hero-left .p2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero-left-btn-parent{
+    margin-top: 12px;
 }
